@@ -17,10 +17,6 @@
 
 int main(int argc, char* argv[])
 {
-	SDL_Texture* grass_texture = RenderWindow::getInstance().loadTexture("grass.jpg");
-	SDL_Texture* sky_texture = RenderWindow::getInstance().loadTexture("sky.jpg");
-	SDL_Texture* solid_platform_texture = RenderWindow::getInstance().loadTexture("solid_platform.png");
-
 	// set current screen
 	RenderWindow::getInstance().currentScreen = new GuiTitle();
 
