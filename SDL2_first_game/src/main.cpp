@@ -17,6 +17,9 @@
 
 int main(int argc, char* argv[])
 {
+	// init render window
+	RenderWindow::getInstance();
+
 	// set current screen
 	RenderWindow::getInstance().currentScreen = new GuiTitle();
 
@@ -29,7 +32,6 @@ int main(int argc, char* argv[])
 	{
 		float newTime = utils::hireTimeInSeconds();
 		float frameTime = newTime - currentTime;
-
 		currentTime = newTime;
 
 		accumulator += frameTime;
