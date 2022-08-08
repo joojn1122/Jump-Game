@@ -10,4 +10,4 @@ I tried adding delete on unused objects but it eventually crashed..
 I only created this to learn more C++, also I might create a video about this
 ```
 
-You can download (windows only) releases [here](/releases)
+You can download (windows only) releases [here](../../releases)
